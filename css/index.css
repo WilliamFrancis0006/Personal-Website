@@ -1,0 +1,104 @@
+
+/* 
+NAVIGATION BAR START
+*/
+
+/* Nav Bar  Background Color */
+.navbar-custom  {
+    background-color: black;
+}
+
+/* Nav Bar Main Text Color */
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+/* Nav Bar Item Color */
+.navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: rgb(169,169,169);
+}
+
+/* Nav Bar ACtive Item Color */
+.navbar-custom .navbar-collapse .navbar-nav .nav-item .active{
+    color: rgb(39, 53, 182);
+}
+
+/* Nav Bar Button Color */
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(169,169,169)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+/* 
+NAVIGATION BAR END
+*/
+
+
+/* Main Body */
+body {
+    background-color: #f1dac4;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main Text Color Off-White */
+.mainParagraph,
+.mainSubTitle,
+.connectTitle {
+    color: rgb(225, 225, 225);
+}
+
+
+/* Main Paragraph TitleText Size */
+.mainParagraph h4{
+    font-size: 20px;
+}
+
+/* Main Paragraph Blue Background */
+.mainParagraph {
+    background-color: #21294e;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 19px;
+}
+
+/* Section 1 */
+.section1 {
+    background-color: #a69cac;
+    border-radius: 5px;
+}
+
+/* Top Page Header */
+.topHeader {
+    color: rgb(225, 225, 225);
+    background-color: rgb(89, 96, 197);
+    padding-bottom: 7px;
+}
+
+/* Standing Pic Border */
+.fullPic{
+    border: 5px solid #555;
+    border-radius: 0px 5px 5px 0px;
+  }
+
+/* Section with profile pic/connect links */
+.profileConnectSection {
+    background-color: rgb(89, 96, 197);
+    border-radius: 5px;
+
+}
+/* Section with profile pic/connect links */
+.introSection {
+    background-color: #a69cac;
+    border-radius: 5px;
+    
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: rgb(89, 96, 197);
+}
+
+/* Footer Links*/
+.footer a{
+    color: #f1dac4;
+}
