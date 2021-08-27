@@ -1,7 +1,7 @@
 // Orginal Code Adapted from (https://www.geeksforgeeks.org/design-a-typing-speed-test-game-using-javascript/)
 
 // Time Limit
-let TIME_LIMIT = 45;
+let TIME_LIMIT = 10;
 
 // Text that the user will type
 let quotes_array = [
