@@ -1,0 +1,72 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: black;
+}
+  
+.header {
+  display: flex;
+  align-items: center;
+}
+  
+.timer, .errors, .accuracy {
+  background-color: #3700ff94;
+  height: 60px;
+  width: 70px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+}
+  
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+  
+.curr_time, .curr_errors {
+  font-size: 2.75rem;
+}
+  
+.quote {
+  background-color: #3700ff94;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 25px;
+}
+  
+.input_area {
+  background-color: #c4c4c4;
+  height: 80px;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 15px;
+  padding: 20px;
+  border: 0px;
+}
+  
+.restart_btn {
+  display: none;
+  background-color: #3700ff94;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+}
+  
+.incorrect_char {
+  color: red;
+  text-decoration: underline;
+}
+  
+.correct_char {
+  color: darkgreen;
+}

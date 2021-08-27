@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <title>Xtreme Typer Challenge</title>
+    <link rel="stylesheet" href="type.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+        Xtreme Typer Challenge 
+        </div>
+        <div class="header">
+            
+            <div class="timer">
+                <div class="header_text">Time</div>
+                <div class="curr_time">10</div>
+            </div>
+        </div>
+    
+        <div class="quote">
+            Click Below 2 Start
+        </div>
+
+        <!-- 
+                 "onpaste" - Disables Copy & Pasting 
+                  "ondrop" - Disables Drag & Drop 
+            "autocomplete" - Disables Autocomplete 
+        -->
+        <textarea class="input_area" onpaste="return false;" ondrop="return false;" autocomplete="off"
+            placeholder="Type Here"
+            oninput="processCurrentText()"
+            onfocus="startGame()">
+        </textarea>
+
+        <button class="restart_btn"
+            onclick="resetValues()">
+            Restart
+        </button>
+
+    </div>
+    
+    <script src="type.js"></script>
+</body>
+</html>
